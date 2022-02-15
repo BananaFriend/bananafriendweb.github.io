@@ -1,0 +1,113 @@
+/* Body */
+
+body {
+    background-color: rgb(58, 58, 58);
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    background-image: url(Images/BananaFriend.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1500px;
+}
+
+header a {
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+header .mobile {
+    display: none;
+}
+
+/* Features */
+
+.features {
+    background: gray;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.features figure {
+    margin: auto;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 550px;
+}
+
+/* Links */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Features Images */
+
+.myself {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    align-self: left;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    padding: 7px 15px;
+}
+
+/* Responsive Rules */
+
+@media screen and (max-width: 715px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+
+    header {
+        height: 550px;
+    }
+}
+
